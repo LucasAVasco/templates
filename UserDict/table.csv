@@ -1,0 +1,10 @@
+Bit ,Field ,Type ,Reset ,Description 
+15-0 ,SYSBERRIV ,R ,0h ,System bus error interrupt vector. Generates a value that can be used as an 
+,,,,address offset for fast interrupt service routine handling. Writing to this register 
+,,,,clears all pending flags. 
+,,,,00h = No interrupt pending 
+,,,,02h = USB module timed out. Wait state time out of 8 clock cycles. 16 clock 
+,,,,cycles only on the F552x and F551x devices. 
+,,,,04h = Reserved for future extensions 
+,,,,06h = Reserved for future extensions 
+,,,,08h = Reserved for future extensions 
