@@ -1,0 +1,8 @@
+services:
+  dev:
+    tty: true
+    build:
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./scripts:/home/scripts
+      - ../project:/home/docker_volumes/project

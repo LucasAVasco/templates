@@ -1,0 +1,8 @@
+{
+	"name": "project-name",
+
+	"dockerComposeFile": "./compose.yaml",
+	"service": "dev",
+	"workspaceFolder": "/home/docker_volumes"
+}
+// vi: ft=jsonc
